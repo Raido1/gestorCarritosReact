@@ -1,0 +1,38 @@
+.lista-carros-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  height: 100%;
+  text-align: center;
+}
+
+.lista-carros-container h2 {
+  margin-bottom: 1rem;
+}
+
+.list-group {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow-x: auto;
+}
+
+.list-group-item {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 100px;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+}
+
+.badge {
+  padding: 0.4rem 0.8rem;
+  font-weight: bold;
+}

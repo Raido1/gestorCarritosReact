@@ -1,0 +1,136 @@
+.fc-daygrid-day-number, .fc-col-header-cell-cushion {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.fc {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 90%;
+}
+  
+.fc-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+  
+.fc-toolbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+  
+.fc-button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+  
+.fc-button:hover {
+  background-color: #0056b3;
+}
+  
+.fc-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+  
+.fc-daygrid-day {
+  border: 1px solid #e6e6e6;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease;
+}
+  
+.fc-daygrid-day:hover {
+  background-color: #f0f8ff;
+}
+  
+.fc-event {
+  background-color: #28a745;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 2px 5px;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+  
+.fc-event:hover {
+  background-color: #218838;
+}
+  
+.fc-day-today {
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}
+  
+.fc-col-header-cell {
+  background-color: #007bff;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+}
+  
+@media (max-width: 768px) {
+  .fc-toolbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .fc-toolbar-title {
+    font-size: 1.2rem;
+  }
+  
+  .fc-button {
+    font-size: 0.8rem;
+    padding: 5px;
+  }
+}
+
+h1, p {
+  align-items: center;
+  text-align: center;
+}
+  
+.fc-timegrid-slot {
+  height: 50px;
+  min-height: 50px;
+}
+
+.fc-timegrid-slot-label {
+  font-size: 1rem;
+}
+
+.fc-timegrid-slot-lane {
+  font-size: 1rem;
+}
+
+.logout-button {
+  display: block;
+  margin: 20px auto;
+  background-color: #dc3545;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #c82333;
+}
